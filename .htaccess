@@ -1,0 +1,2 @@
+# One month
+Header set Cache-Control "max-age=262800, public"
