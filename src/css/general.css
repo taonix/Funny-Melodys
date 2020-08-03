@@ -51,11 +51,20 @@
         margin-right: 5%;
     }
 
+    .title2 {
+        text-align: left !important;
+        margin-left: 1% !important;
+    }
+
+    .title {
+        margin-top: 30% !important;
+    }
+
 }
 
 
 /* Téléphone de maximum 395px de large */
-@media (min-width: 362px) and (max-width: 395px) {
+@media (min-width: 362px) and (max-width: 430px) {
 
     .sixteenParagraph {
         background-image: none;
@@ -77,12 +86,21 @@
     .textSaP {
         padding-left: 5% !important;
         margin-right: 5%;
+    }
+
+    .title2 {
+        text-align: left !important;
+        margin-left: 1% !important;
+    }
+
+    .title {
+        margin-top: 20% !important;
     }
 
 }
 
 /* Téléphone de maximum 800px de large */
-@media (min-width: 396px) and (max-width: 800px) {
+@media (min-width: 431px) and (max-width: 800px) {
 
     .sixteenParagraph {
         background-image: none;
@@ -106,9 +124,16 @@
         margin-right: 5%;
     }
 
+    .title2 {
+        text-align: left !important;
+        margin-left: 1% !important;
+    }
+
+    .title {
+        margin-top: 10% !important;
+    }
+
 }
-
-
 
 body {
     width: 100%;
@@ -190,5 +215,10 @@ footer {
     background-repeat: no-repeat;
     visibility: visible;
     animation-name: fadeIn;
+}
+
+.title2 {
+    margin-top: 1%;
+    margin-left: 500px
 }
 
