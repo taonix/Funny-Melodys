@@ -1,13 +1,194 @@
+@font-face {
+    font-family: 'HelveticaNeueBd';
+    font-style: normal;
+    font-weight: normal;
+    src: local('HelveticaNeueBd'), url('../font/HelveticaNeueBd.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('HelveticaNeue Thin'), url('../font/HelveticaNeue Thin.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLt';
+    font-style: normal;
+    font-weight: normal;
+    src: local('HelveticaNeueLt'), url('../font/HelveticaNeueLt.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('HelveticaNeue Medium'), url('../font/HelveticaNeue Medium.ttf') format('woff');
+}
+
+/* Téléphone de maximum 395px de large */
+@media (min-width: 0px) and (max-width: 361px) {
+
+    .sixteenParagraph {
+        background-image: none;
+        background-size: 0;
+        margin-bottom: 80% !important;
+    }
+
+    .textSP {
+        padding-right: 5% !important;
+        margin: 1% 1% 1%;
+    }
+
+    .sanaaParagraph {
+        background-image: none;
+        background-size: 0;
+        margin-bottom: 85% !important;
+    }
+
+    .textSaP {
+        padding-left: 5% !important;
+        margin-right: 5%;
+    }
+
+}
+
+
+/* Téléphone de maximum 395px de large */
+@media (min-width: 362px) and (max-width: 395px) {
+
+    .sixteenParagraph {
+        background-image: none;
+        background-size: 0;
+        margin-bottom: 70% !important;
+    }
+
+    .textSP {
+        padding-right: 5% !important;
+        margin: 1% 1% 1%;
+    }
+
+    .sanaaParagraph {
+        background-image: none;
+        background-size: 0;
+        margin-bottom: 70% !important;
+    }
+
+    .textSaP {
+        padding-left: 5% !important;
+        margin-right: 5%;
+    }
+
+}
+
+/* Téléphone de maximum 800px de large */
+@media (min-width: 396px) and (max-width: 800px) {
+
+    .sixteenParagraph {
+        background-image: none;
+        background-size: 0;
+        margin-bottom: 35% !important;
+    }
+
+    .textSP {
+        padding-right: 5% !important;
+        margin: 1% 1% 1%;
+    }
+
+    .sanaaParagraph {
+        background-image: none;
+        background-size: 0;
+        margin-bottom: 35% !important;
+    }
+
+    .textSaP {
+        padding-left: 5% !important;
+        margin-right: 5%;
+    }
+
+}
+
+
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
 .Site {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
 
+
+
+h1 {
+    font-family: 'HelveticaNeue Medium';
+}
+
+h5, h4, h3, h2, p {
+    font-family: 'HelveticaNeueLt';
+    color: #23272A;
+}
+
+
+
 .Site-content {
     flex: 1;
 }
 
+
+
 footer {
     align-items: center;
 }
+
+
+
+.parallax {
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.section1 {
+    background-image: url("../img/section1.jpg");
+    visibility: visible;
+    animation-name: fadeIn;
+}
+
+.sixteenParagraph {
+    height: 500px;
+    background-image: url("../img/section1.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    visibility: visible;
+    animation-name: fadeIn;
+}
+
+.textSP {
+    padding-right: 500px;
+    margin: 1% 1% 1%;
+    padding-bottom: 3%;
+}
+
+.textSaP {
+    padding-left: 500px;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+
+.sanaaParagraph {
+    height: 500px;
+    background-image: url("../img/section2.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    visibility: visible;
+    animation-name: fadeIn;
+}
+
