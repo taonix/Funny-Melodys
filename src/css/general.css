@@ -222,3 +222,72 @@ footer {
     margin-left: 500px
 }
 
+.coverList {
+    padding: 5%;
+}
+
+.tailleBarre1 {
+    position: absolute;
+    background-color: #6c757d;
+    height: 3px;
+    width: 10px;
+}
+
+.progress1 {
+    height: 3px;
+    background-color: black;
+}
+
+.tailleBarre2 {
+    position: absolute;
+    background-color: #6c757d;
+    height: 3px;
+    width: 10px;
+}
+
+.progress2 {
+    height: 3px;
+    background-color: black;
+}
+
+.buttonMusic {
+    margin-left: 1%;
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    height: 18.5px;
+    border-color: transparent transparent transparent #202020;
+    transition: 100ms all ease;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 9.25px 0 9.25px 15px;
+}
+.buttonMusic.paused {
+    border-style: double;
+    border-width: 0px 0 0px 15px;
+}
+.buttonMusic:hover {
+    border-color: transparent transparent transparent #404040;
+}
+
+.buttonMusic1 {
+    margin-left: 1%;
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    height: 18.5px;
+    border-color: transparent transparent transparent #202020;
+    transition: 100ms all ease;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 9.25px 0 9.25px 15px;
+}
+.buttonMusic1.paused {
+    border-style: double;
+    border-width: 0px 0 0px 15px;
+}
+.buttonMusic1:hover {
+    border-color: transparent transparent transparent #404040;
+}
+
+button:focus { outline: none; }
