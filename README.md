@@ -1,5 +1,5 @@
-# Funny-Melodys-ProdTeam
+# Funny Melodys
 
-Projet de site web pour chaine youtube.
+Projet de site web pour chaine youtube. 
 
 Statut : en développement
